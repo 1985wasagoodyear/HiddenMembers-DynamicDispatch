@@ -27,7 +27,6 @@ int main(int argc, const char * argv[]) {
         SEL selector = NSSelectorFromString(@"secretAction");
         if ([dat respondsToSelector:selector] == YES) {
             // if yes, do it
-            SEL selector = NSSelectorFromString(@"secretAction");
             IMP imp = [dat methodForSelector:selector];
             void (*func)(id, SEL) = (void *)imp;
             func(dat, selector);
