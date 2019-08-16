@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FEF2FA32306E86A008DCC57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF2FA22306E86A008DCC57 /* main.m */; };
+		3FEF2FAB2306E8A6008DCC57 /* SecretData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEF2FA92306E8A6008DCC57 /* SecretData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		3FEF2F9F2306E86A008DCC57 /* HiddenMembers&DynamicDispatch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HiddenMembers&DynamicDispatch"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FEF2FA22306E86A008DCC57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3FEF2FA92306E8A6008DCC57 /* SecretData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecretData.m; sourceTree = "<group>"; };
+		3FEF2FAA2306E8A6008DCC57 /* SecretData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecretData.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		3FEF2FA12306E86A008DCC57 /* HiddenMembers&DynamicDispatch */ = {
 			isa = PBXGroup;
 			children = (
+				3FEF2FAA2306E8A6008DCC57 /* SecretData.h */,
+				3FEF2FA92306E8A6008DCC57 /* SecretData.m */,
 				3FEF2FA22306E86A008DCC57 /* main.m */,
 			);
 			path = "HiddenMembers&DynamicDispatch";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FEF2FA32306E86A008DCC57 /* main.m in Sources */,
+				3FEF2FAB2306E8A6008DCC57 /* SecretData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
